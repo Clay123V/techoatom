@@ -25,7 +25,7 @@
 /* Begin PBXFileReference section */
 		4C8D8F361E630D7600D31BDD /* urok1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = urok1; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8D8F391E630D7600D31BDD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		4C8D8F401E64B5B100D31BDD /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		4C8D8F401E64B5B100D31BDD /* stack_class.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack_class.h; sourceTree = "<group>"; };
 		4C8D8F411E64CB8300D31BDD /* File.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,7 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				4C8D8F391E630D7600D31BDD /* main.cpp */,
-				4C8D8F401E64B5B100D31BDD /* Header.h */,
+				4C8D8F401E64B5B100D31BDD /* stack_class.h */,
 				4C8D8F411E64CB8300D31BDD /* File.txt */,
 			);
 			path = urok1;
@@ -250,6 +250,7 @@
 				4C8D8F3F1E630D7600D31BDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
