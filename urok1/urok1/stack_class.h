@@ -140,7 +140,7 @@ bool Stack::ok(){
 }
 void Stack::dump(){
         ofstream dump_file;
-        dump_file.open("/Users/kirillkormasov/Desktop/Программирование /urok1/urok1/File.txt");
+        dump_file.open("/Users/kirillkormasov/techoatom/urok1/urok1/File.txt");
         dump_file<<"size = "<<size_<<endl<<"data:"<<endl;
         for (int i=0;i<capacity_;i++) {
             dump_file<<i<<' ';
