@@ -21,14 +21,14 @@ cout<<"Object passed the "#eq " test\n";\
 
 
 int main() {
-//    TEST(Stack,EmptyStack);
-//    {
-//        Stack s;
-//        ASSERT_EQ(s.empty()==1,EmptyStack);
-//        ASSERT_EQ((s.size()==0),SizeCheck);
-//        s.push(2);
-//        ASSERT_EQ((s.size()==1),SizeCheck);
-//        ASSERT_EQ(s.pop(),PopElStack);
-//        ASSERT_EQ((s.size()==0),SizeCheck);
-//    }
+    TEST(Stack,EmptyStack);
+    {
+        Stack s;
+        ASSERT_EQ(s.empty()==1,EmptyStack);
+        ASSERT_EQ((s.size()==0),SizeCheck);
+        s.push(2);
+        ASSERT_EQ((s.size()==1),SizeCheck);
+        ASSERT_EQ(s.pop(),PopElStack);
+        ASSERT_EQ((s.size()==0),SizeCheck);
+    }
 }

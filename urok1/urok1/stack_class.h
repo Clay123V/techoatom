@@ -66,7 +66,6 @@ public:
     //--------------------------------------
     //Pushes the value to the stack
     //@param value to be pushed
-    //!@return void-type (nothing)
     //--------------------------------------
 
     void push(value_type value_to_push);
@@ -78,13 +77,23 @@ public:
 
     
     size_t size();
+    
+    //--------------------------------------
+    //!Returns the capacity of the stack
+    //!@return the capacity of the stack
+    //--------------------------------------
+
+    
+    size_t capacity();
+    
     Stack();
+    
     ~Stack(){ }
     
 private:
     
         
-    static const size_t capacity_=6;
+    static const size_t capacity_=1;
     
     value_type data_[capacity_];
     size_t size_;
@@ -92,6 +101,7 @@ private:
     bool ok();
     void dump();
 };
+
 Stack::Stack(){
     size_=0;
     
@@ -100,6 +110,11 @@ size_t Stack::size(){
     ASSERT_OK();
     return size_;
 }
+size_t Stack::capacity(){
+    ASSERT_OK();
+    return capacity_;
+}
+
 bool Stack::empty()
 {
     ASSERT_OK();
